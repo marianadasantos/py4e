@@ -1,0 +1,5 @@
+print("Weekly pay")
+hours = input("How many hours do you work per week? ")
+money = input("How much do you get paid per hour? ")
+pay = float(hours) * float(money)
+print("Your weekly salary is:",pay)
